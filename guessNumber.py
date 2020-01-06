@@ -31,7 +31,7 @@ if sys.argv[1]:
 		print('Wrong!!! Try again!')
 		guessNumber = getNumber(start, end)
 		mistakes += 1
-	print(f'Alright! It took you {mistakes} trys to get the Winner Number!')
+	print(f'Alright! It took you {mistakes} tries to get the Winner Number!')
 else:
 	print("Type in 2 numbers for the range.")
 
